@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>بورتفوليو بوب غالي</title>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', Arial, sans-serif;
+  }
+  
+  body {
+    background: #0a0a0a;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  header {
+    padding: 40px 20px;
+    text-align: center;
+    background: linear-gradient(180deg, #0a0a0a 0%, #1a1a1a 100%);
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  header p {
+    color: #aaa;
+    font-size: 1.1rem;
+  }
+  
+  section {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 0 20px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Projects */
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+  }
+  
+  .project-card {
+    background: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 25px;
+    transition: 0.3s;
+  }
+  
+  .project-card:hover {
+    border-color: #555;
+    transform: translateY(-5px);
+  }
+  
+  .project-card h3 {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .project-card p {
+    color: #aaa;
+  }
+  
+  /* Contact Links */
+  .contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .contact-links a {
+    background: #1a1a1a;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    border: 1px solid #333;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .contact-links a:hover {
+    background: #333;
+    border-color: #555;
+  }
+  
+  /* Form */
+  form {
+    background: #1a1a1a;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #333;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    background: #0a0a0a;
+    border: 1px solid #333;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #555;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 14px;
+    background: #fff;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  form button:hover {
+    background: #ccc;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 40px 20px;
+    color: #666;
+    border-top: 1px solid #222;
+    margin-top: 60px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>بوب غالي</h1>
+  <p>مطور ويب وتصميم مواقع</p>
+</header>
+
+<section>
+  <h2>مشاريعي</h2>
+  <div class="projects">
+    <div class="project-card">
+      <h3>موقع متجر إلكتروني</h3>
+      <p>تصميم وتطوير متجر كامل مع نظام دفع ودفع عند الاستلام. واجهة سريعة ومتجاوبة مع الموبايل.</p>
+    </div>
+    <div class="project-card">
+      <h3>موقع شركة خدمات</h3>
+      <p>موقع تعريفي احترافي لشركة خدمات مع صفحة تواصل وربط خرائط جوجل وسيو متقدم.</p>
+    </div>
+    <div class="project-card">
+      <h3>صفحة هبوط لمنتج</h3>
+      <p>Landing Page عالية التحويل لمنتج رقمي مع فورم تسجيل وعناصر تحفيزية للشراء.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>تواصل معايا</h2>
+  
+  <div class="contact-links">
+    <a href="https://wa.me/201004320047" target="_blank">📱 واتساب</a>
+    <a href="https://t.me/BOB_BEBO777" target="_blank">✈️ تليجرام</a>
+    <a href="tel:01106335911">📞 اتصال مباشر</a>
+    <a href="mailto:bobghally@gmail.com">✉️ إيميل</a>
+  </div>
+
+  <form action="https://formspree.io/f/mnjwkod" method="POST">
+    <input type="text" name="name" placeholder="اسمك" required>
+    <input type="email" name="email" placeholder="إيميلك" required>
+    <textarea name="message" rows="5" placeholder="رسالتك" required></textarea>
+    <button type="submit">إرسال الرسالة</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 بوب غالي - جميع الحقوق محفوظة</p>
+</footer>
+
+</body>
+</html>
